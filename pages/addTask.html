@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>addTask</title>
+    <link rel="stylesheet" href="../pages/styles.css">
+</head>
+<body>
+    <div class="table-container">
+        <div class="task">
+                    <label>ADD  A NEW TASK:</label>
+        </div>
+        <div class="form-container">
+        <form action="listOfTasks.html">
+            <div>
+                <label>Task_Id:</label>
+                <input type="number"/>
+            </div>
+            <div>
+                <label>Task Name</label>
+                <input type="text"/>
+            </div>
+            <div>
+                <label>Choose Status:</label>
+                <select >
+                    <option>New</option>
+                    <option>Doing</option>
+                    <option>Done</option>
+                  </select>
+            </div>
+            <div>
+                <label>Assigned to:</label>
+                <input type="text"/>
+            </div>
+            <div>
+                <label>Action</label>
+                <button>Delete</button>
+                <button>Update</button>
+            </div>
+        </form>
+        </div>
+        <div class="button-div2">
+           <button class="add-button" type="submit">
+            <a href="listOfTasks.html">SAVE TASK</a>
+           </button>
+        </div>
+    </div>
+</body>
+</html>

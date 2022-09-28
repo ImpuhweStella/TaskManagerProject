@@ -1,0 +1,197 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+.SignUp_menubar{
+     background-color: rgba(255, 192, 203, 0.527);
+     display: flex;
+     justify-content: space-between;
+     
+}
+.SignUp_menubar img{
+    width: 60px;
+    margin-left: 20px; 
+    
+}
+.SignUp_menubar ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.SignUp_menubar ul li{
+    list-style-type: none;
+    margin-left: 30px;
+    
+}
+.SignUp_menubar ul li a {
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.home_texts{
+    justify-content: center;
+    display: inline-block;
+    padding: 50px;
+    margin-right: 50px;
+    text-align: center;
+    width: 100%;
+    height: 500px;
+   
+}
+.home_texts button a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 30px;
+}
+.home_texts button{
+    border-radius: 10px;
+    background-color: rgba(255, 192, 203, 0.527);
+}
+
+.createAcct{
+    padding: 100px;
+    background-color: rgba(128, 128, 128, 0.699);
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 50px;
+    height: 300px;
+    width: 16%;
+}
+.label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: black;
+    
+}
+.label p{
+    font-weight: lighter;
+    font-size: 15px;
+}
+.createAcct input{
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 192, 203, 0.527);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 100px;
+    
+   
+
+}
+.createAcct ::placeholder{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: medium;
+}
+.createAcct a{
+    color:black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.submit_button{
+    border-radius: 15px;
+    background-color: rgba(255, 192, 203, 0.527);
+    padding: 15px; 
+    margin-top: 50px;  
+    border-style: none; 
+    width: 200px;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.createAcct_text p{
+    font-weight: lighter;
+    margin-right: 30px;
+}
+.createAcct_text a{
+    text-decoration: none;
+    color: black;
+    margin-left: 100px;
+    padding-top: 50px; 
+}
+.table-container{
+    padding: auto;
+    background-color: rgba(255, 192, 203, 0.527);
+    width: 100%;
+    height: 1000px;
+
+}
+table{
+    margin: auto;
+    margin-top: 100px;
+
+}
+th,td{
+        border: 1px solid black;
+        
+}
+.task label{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+
+}
+.add-button{
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.button-div{
+    /* margin-top: 50px; */
+    margin-left: 410px;
+    /* border-style: none; */
+}
+.add-button a{
+    color: black;
+    text-decoration: none;
+    border-style: none;
+    
+}
+.personalData{
+    background-color: rgba(255, 192, 203, 0.527);
+    width: 100%;
+    height: 1000px;
+
+}
+.personalData input{
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 192, 203, 0.527);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.form-container{
+    padding: 100px;
+    display: block;
+}
+.form-container input{
+    margin-left: 30px;
+    width: 150px;
+    height: 20px;
+}
+
